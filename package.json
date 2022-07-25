@@ -1,0 +1,66 @@
+{
+    "name": "brainscloud",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "brainscloud",
+    "author": "brainscloud",
+    "scripts": {
+        "test": "jest"
+    },
+    "babel": {
+        "plugins": [
+            "@babel/plugin-syntax-class-properties",
+            "@babel/plugin-proposal-class-properties"
+        ],
+        "presets": [
+            "@babel/preset-env"
+        ]
+    },
+    "devDependencies": {
+        "@babel/core": "^7.17.4",
+        "@babel/plugin-syntax-class-properties": "^7.12.13",
+        "@babel/preset-env": "^7.16.11",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^8.2.2",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-preset-env": "^1.7.0",
+        "browser-sync": "^2.26.14",
+        "del": "^6.0.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-babel": "^8.0.0",
+        "gulp-cssbeautify": "^3.0.0",
+        "gulp-cssnano": "^2.1.3",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-notify": "^4.0.0",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "^2.0.0",
+        "gulp-sass": "^4.1.0",
+        "gulp-strip-css-comments": "^2.0.0",
+        "gulp-uglify": "^3.0.2",
+        "jest": "^27.5.1",
+        "panini": "^1.7.2",
+        "webpack": "^5.35.1",
+        "webpack-stream": "^6.1.2"
+    },
+    "browserslist": [
+        "last 1 version",
+        "> 1%",
+        "IE 10"
+    ],
+    "dependencies": {
+        "@babel/cli": "^7.17.3",
+        "@babel/preset-es2015": "^7.0.0-beta.53",
+        "@yaireo/validator": "^3.4.0",
+        "air-datepicker": "^3.1.0",
+        "babel-jest": "^27.5.1",
+        "babel-preset-es2015": "^6.24.1",
+        "gulp-concat-css": "^3.1.0",
+        "gulp-flatten": "^0.4.0",
+        "gulp-footer": "^2.1.0",
+        "gulp-header": "^2.0.9",
+        "gulp-replace": "^1.1.3",
+        "http-server": "^0.12.3",
+        "jquery": "^3.6.0"
+    }
+}
