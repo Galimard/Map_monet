@@ -1,0 +1,45 @@
+@import "_vars";
+@import "_mixin";
+@import "vendor/reset";
+
+@font-face {
+	font-family: 'Futura PT Demi';
+	src: url('../fonts/FuturaPT-Book.woff2') format('woff2');
+	src: url('../fonts/FuturaPT-Book.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Futura PT Medium';
+	src: url('../fonts/FuturaPT-Medium.woff2') format('woff2');
+	src: url('../fonts/FuturaPT-Medium.woff') format('woff');
+}
+
+
+html, body {
+    font-family: "Futura PT Medium", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 1.3;
+    color: $mainText;
+    height: 100%;
+    background: $bg;
+}
+
+body.no-scroll{
+    overflow: hidden !important;
+    padding-right: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* Layout */
+// @import "layout/page.scss";
+// @import "layout/container.scss";
+// @import "layout/header.scss";
+// @import "layout/footer.scss";
+
+/* Components */
+@import "components/map.scss";
